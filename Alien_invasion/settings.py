@@ -2,12 +2,13 @@ class Settings:
 
     def __init__(self):
         #screen setting
-        self.screen_width = 1200
-        self.screen_height = 800
+        self.screen_width = 800
+        self.screen_height = 600
         self.bg_color = (230,230,230)
 
         #ship settings
         self.ship_speed = 1.5
+        self.ship_limit = 3
 
         # bullet settings
         self.bullet_speed = 1.0
